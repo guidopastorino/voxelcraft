@@ -1,0 +1,30 @@
+{
+  "name": "voxelcraft",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "VoxelCraft — single-player voxel survival MVP for desktop browsers",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint . && tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/pixelify-sans": "^5.3.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/three": "^0.186.0",
+    "eslint": "^10.11.0",
+    "fake-indexeddb": "^6.2.5",
+    "globals": "^17.12.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.70.1",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  }
+}
